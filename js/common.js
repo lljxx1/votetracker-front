@@ -381,7 +381,7 @@ Vue.component("pie", {
 var axiosInstance = axios.create();
 Vue.prototype.API = axiosInstance;
 axiosInstance.defaults.params = {};
-axiosInstance.defaults.baseURL = "https://api.tallymeter.io/"
+axiosInstance.defaults.baseURL = "http://ec2-13-124-175-254.ap-northeast-2.compute.amazonaws.com/"
 
 
 var eosVenusAxiosInstance = axios.create();
